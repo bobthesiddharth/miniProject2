@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Corporate Holiday Planner</title>
+  </head>
+  <body>
+    <h1>Corporate Holiday Planner</h1>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Day</th>
+        <th>Holiday</th>
+      </tr>
+      <tr>
+        <td>01-01-2025</td>
+        <td>Wednesday</td>
+        <td>New Year's Day</td>
+      </tr>
+      <tr>
+        <td>26-01-2025</td>
+        <td>Sunday</td>
+        <td>Republic Day</td>
+      </tr>
+      <tr>
+        <td>26-02-2025</td>
+        <td>Wednesday</td>
+        <td>Maha Shivratri</td>
+      </tr>
+      <tr>
+        <td>14-03-2025</td>
+        <td>Friday</td>
+        <td>Holi</td>
+      </tr>
+      <tr>
+        <td>31-03-2025</td>
+        <td>Monday</td>
+        <td>Idul Fitr (Ramadan Eid)</td>
+      </tr>
+      <tr>
+        <td>06-04-2025</td>
+        <td>Sunday</td>
+        <td>Ram Navami</td>
+      </tr>
+      <tr>
+        <td>10-04-2025</td>
+        <td>Thursday</td>
+        <td>Shri Mahavir Jayanti</td>
+      </tr>
+      <tr>
+        <td>14-04-2025</td>
+        <td>Monday</td>
+        <td>Dr. B.R. Ambedkar Jayanti</td>
+      </tr>
+      <tr>
+        <td>18-04-2025</td>
+        <td>Friday</td>
+        <td>Good Friday</td>
+      </tr>
+      <tr>
+        <td>21-04-2025</td>
+        <td>Monday</td>
+        <td>Easter Monday</td>
+      </tr>
+      <tr>
+        <td>12-05-2025</td>
+        <td>Monday</td>
+        <td>Buddha Purnima</td>
+      </tr>
+      <tr>
+        <td>16-05-2025</td>
+        <td>Friday</td>
+        <td>Buddha Purnima</td>
+      </tr>
+      <tr>
+        <td>07-06-2025</td>
+        <td>Saturday</td>
+        <td>Bakrid (Eid al-Adha)</td>
+      </tr>
+      <tr>
+        <td>15-06-2025</td>
+        <td>Sunday</td>
+        <td>Raja Sankranti</td>
+      </tr>
+      <tr>
+        <td>06-07-2025</td>
+        <td>Sunday</td>
+        <td>Muharram</td>
+      </tr>
+      <tr>
+        <td>09-08-2025</td>
+        <td>Saturday</td>
+        <td>Raksha Bandhan</td>
+      </tr>
+      <tr>
+        <td>15-08-2025</td>
+        <td>Friday</td>
+        <td>Independence Day, Janmashtami (Smarta), Parsi New Year</td>
+      </tr>
+      <tr>
+        <td>16-08-2025</td>
+        <td>Saturday</td>
+        <td>Janmashtami</td>
+      </tr>
+      <tr>
+        <td>27-08-2025</td>
+        <td>Wednesday</td>
+        <td>Ganesh Chaturthi</td>
+      </tr>
+      <tr>
+        <td>07-09-2025</td>
+        <td>Sunday</td>
+        <td>Ganesh Chaturthi</td>
+      </tr>
+      <tr>
+        <td>02-10-2025</td>
+        <td>Thursday</td>
+        <td>Gandhi Jayanti, Dussehra, Vijaya Dashami</td>
+      </tr>
+      <tr>
+        <td>21-10-2025</td>
+        <td>Tuesday</td>
+        <td>Diwali (Laxmi Pujan)</td>
+      </tr>
+      <tr>
+        <td>22-10-2025</td>
+        <td>Wednesday</td>
+        <td>Diwali (Balipratipada)</td>
+      </tr>
+      <tr>
+        <td>05-11-2025</td>
+        <td>Wednesday</td>
+        <td>Guru Nanak Jayanti</td>
+      </tr>
+      <tr>
+        <td>25-12-2025</td>
+        <td>Thursday</td>
+        <td>Christmas Day</td>
+      </tr>
+    </table>
+
+    <button type="button" onclick="calTotal()">Total Holiday</button>
+    <div id="result"></div>
+    <br />
+    <br />
+
+    <h2>Enjoy your holidays !!!</h2>
+
+    <script>
+      function calTotal() {
+        const total = 24;
+        document.getElementById("result").textContent =
+          "Number of holidays: " + total;
+      }
+    </script>
+  </body>
+</html>

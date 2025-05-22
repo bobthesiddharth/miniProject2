@@ -1,0 +1,53 @@
+h1 {
+    background-color: antiquewhite;
+    margin-top: 0;
+    padding: 10px 10px;
+    text-align: center;
+  }
+  
+  table {
+    background-color: azure;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    min-width: 400px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th,
+  td {
+    padding: 14px 18px;
+    text-align: center;
+    border-bottom: 1px solid #b2c2c2;
+  }
+  
+  th {
+    background-color: cadetblue;
+    color: #fff;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f4fbfb;
+  }
+  
+  tr:hover {
+    background-color: #d6eaea;
+    transition: background 0.2s;
+  }
+  
+  td {
+    font-size: 1em;
+    color: #2c3e50;
+  }
+  
+  button {
+    height: auto;
+    width: auto;
+    background-color:springgreen;
+    border-radius: 15px;
+  }
